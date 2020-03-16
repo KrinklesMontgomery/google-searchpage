@@ -1,0 +1,13 @@
+.header-main-logo {
+    height: 2em;
+}
+
+.header-top-left-menu {
+    display: flex;
+    width: 50em;
+}
+
+.header-top-full-menu {
+    display: flex;
+    justify-content: space-between;
+}
