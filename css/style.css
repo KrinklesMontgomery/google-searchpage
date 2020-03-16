@@ -40,3 +40,33 @@
     display: flex;
     justify-content: space-between;
 }
+
+.material-icons-dialpad {
+    padding: 0.5em 0.3em 0.1em 0.3em;
+    height: 1.5em;
+    width: 1.5em;
+    opacity: 0.6;
+}
+
+.material-icons-dialpad:hover {
+    border-radius: 2em;
+    background-color: lightgrey; 
+}
+
+.material-icons-dialpad:hover > .material-icons-dialpad-blocker {
+    background-color: lightgrey;
+}
+
+.material-icons-dialpad-blocker {
+    height: 0.4em;
+    width: 0.4em;
+    left: 0.5em;
+    position: relative;
+    bottom: 0.65em;
+    background-color: white;
+}
+
+.header-user-icon {
+    padding: 1em;
+    border-radius: 2em;
+}
