@@ -70,3 +70,7 @@
     padding: 1em;
     border-radius: 2em;
 }
+
+.header-bottom-full-menu {
+    border-bottom: 0.1em solid lightgrey;
+}
