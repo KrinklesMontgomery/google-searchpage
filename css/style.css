@@ -43,7 +43,7 @@ body {
 
 .header-top-full-menu {
     display: flex;
-    padding: 0.5em;
+    padding: 0.5em 0.5em 0em 0.5em;
     justify-content: space-between;
 }
 
@@ -79,8 +79,33 @@ body {
 
 .header-navbar-list {
     list-style-type: none;
-    padding-left: 10em;
+    padding-left: 13em;
     display: flex;
+}
+
+.header-navbar-list-item {
+    padding-right: 3em;
+}
+
+.header-bottom-right-menu {
+    padding-left: 1em;
+}
+
+.header-settings-anchor {
+    padding-right: 1em;
+}
+
+.header-tools-anchor {
+    text-decoration: none;
+    color: black;
+    padding: 0.4em 0.7em 0.4em 0.7em;
+    border: 0.1em solid white;
+}
+
+.header-tools-anchor:hover {
+    background-color: lightgrey;
+    border: 0.1em solid grey;
+    border-radius: 0.1em;
 }
 
 
