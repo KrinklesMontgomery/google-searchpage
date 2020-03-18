@@ -78,17 +78,20 @@ body {
 }
 
 .header-navbar-list {
+    padding: 0.1em 0.1em 0.3em 0.1em;
+    margin: 0.6em;
     list-style-type: none;
-    padding-left: 13em;
+    padding-left: 11em;
     display: flex;
 }
 
 .header-navbar-list-item {
-    padding-right: 3em;
+    padding-right: 1.5em;
+    display: flex;
 }
 
 .header-bottom-right-menu {
-    padding-left: 1em;
+    padding-left: 2.2em;
 }
 
 .header-settings-anchor {
@@ -116,4 +119,11 @@ body {
     width: 100%;
     justify-content: flex-start;
     border-bottom: 0.1em solid lightgrey;
+}
+
+.material-icons.navbar-icon {
+    position: relative;
+    padding-right: 0.1em;
+    top: 0.2em;
+    font-size: 1.2em;
 }
